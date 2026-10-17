@@ -45,8 +45,8 @@ Amazon Prime Video hosts an extensive catalog of movies and television shows acr
   - `matplotlib` & `seaborn` – Statistical visualizations, histograms, and heatmaps
   - `re` / Text Handling – Parsing multi-value strings (`listed_in`, `cast`, `director`)
 
-  ## 🔄 Project Workflow
-  1. **Data Cleaning & Handling Missing Values:**
+## 🔄 Project Workflow
+1. **Data Cleaning & Handling Missing Values:**
    - Handled missing values in `director`, `cast`, and `country` (imputed with `'Unknown'` or analyzed conditionally).
    - Standardized date formats for temporal extraction (`month_added`, `year_added`).
 2. **Feature Engineering:**
@@ -57,7 +57,6 @@ Amazon Prime Video hosts an extensive catalog of movies and television shows acr
    - Temporal trend tracking using grouped aggregations.
      
 ## 💡 Key Insights & Findings
-*(Update values based on your exact notebook figures)*
 - **Catalog Breakdown:** Movies constitute the majority (~70-80%) of the catalog, while TV series represent the remainder.
 - **Top Genres:** Drama, Comedy, and Action/Suspense lead total catalog volume.
 - **Content Growth:** A noticeable acceleration in added titles occurred from 2015 onwards, mirroring the streaming industry's digital expansion.
@@ -71,7 +70,3 @@ The notebook includes detailed visualizations covering:
 - **Countplots:** Top 10 countries by content production.
 - **Histograms & KDE:** Runtime distribution for feature films.
 - **Correlation/Frequency Tables:** Co-occurrence of top genres.
-
----
-
-## 🔄 Project Workflow
